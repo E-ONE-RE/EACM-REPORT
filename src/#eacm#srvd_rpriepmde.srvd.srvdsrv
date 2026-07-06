@@ -1,0 +1,5 @@
+@EndUserText.label: 'RPRIEPMDE Service Definition'
+define service /EACM/SRVD_RPRIEPMDE {
+  expose /EACM/C_RPRIEPMDE     as CommissionSummary;
+  expose /EACM/R_RPRIEPMDE_PDF as PdfDownload;
+}
