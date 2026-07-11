@@ -1,5 +1,4 @@
-@EndUserText.label: 'RPRIEPMDE Service Definition'
+@EndUserText.label: 'DA CANCELLARE'
 define service /EACM/SRVD_RPRIEPMDE {
-  expose /EACM/C_RPRIEPMDE     as CommissionSummary;
-  expose /EACM/R_RPRIEPMDE_PDF as PdfDownload;
+  expose /EACM/C_RPRIEPMDE as CommissionSummary;
 }

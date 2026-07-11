@@ -3,12 +3,7 @@
 {
 "FROM":
 [
-"/EACM/I_RPAGENT",
-"/EACM/I_RPPRDP",
-"/EACM/PRDO",
-"/EACM/ZPR02",
-"/EACM/ZPR48",
-"/EACM/ZPRAA"
+"/EACM/PRDO"
 ],
 "ASSOCIATED":
 [],

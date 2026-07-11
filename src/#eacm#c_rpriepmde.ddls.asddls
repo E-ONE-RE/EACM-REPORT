@@ -1,5 +1,5 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
-@EndUserText.label: 'Riepilogo provvigioni'
+@EndUserText.label: 'DA CANCELLARE'
 @Metadata.ignorePropagatedAnnotations: true
 @Metadata.allowExtensions: true
 
@@ -15,48 +15,5 @@ define root view entity /EACM/C_RPRIEPMDE
   key Posnr,
   key Zcdaz,
   key Zidag,
-
-  Bukrs,
-  ZtpagDoc,
-  Namea,
-  Ztpag,
-  Zdeag,
-  Vkgrp,
-  Vkbur,
-  Waerk,
-  Zzwaer,
-  Kunrg,
-  Fkart,
-  Vbtyp,
-  Fkdat,
-  Belnr,
-  Bldat,
-  Budat,
-  Blart,
-  Matnr,
-  Maktx,
-  Zutmx,
-  Zstre,
-  Zpcpr,
-  Zdest,
-  Zhistor,
-  Zabin,
-  Kostl,
-  Ztprv,
-  Kurrf,
-  SignMultiplier,
-  Zimpp,
-  Zimco,
-  Zimmg,
-  Ziman,
-  ImpProvv,
-  ImpMatur,
-  ImpDaMat,
-  ImpRecup,
-  Zidfs,
-  Zamcf,
-  Ztpcd,
-  Zwaersp,
-  Zkurrfp,
-  Zpercsosp
+  Bukrs
 }
